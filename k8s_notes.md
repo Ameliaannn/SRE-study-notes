@@ -1,14 +1,14 @@
-# Kubernetes Notes (English-Chinese)
+# Kubernetes Notes 
 
-## Part 1: What is Kubernetes?
+## What is Kubernetes?
 
 Kubernetes (K8s) is a container orchestration system that automates the deployment, scaling, and management of containerized applications across multiple servers.
 
-## Part 2: Why "K8s"?
+## Why "K8s"?
 
 "Kubernetes" becomes "K8s" because there are 8 letters between 'K' and 's'.
 
-## Part 3: What does Kubernetes do?
+##  What does Kubernetes do?
 
 Kubernetes handles:
 1. Automatic Deployment
@@ -17,31 +17,31 @@ Kubernetes handles:
 4. Monitoring & Self-healing
 5. Supports various container runtimes (Docker, CRI-O, containerd)
 
-## Part 4: What is a Pod?
+## What is a Pod?
 
 A Pod is the smallest unit in Kubernetes. It can contain one or more containers that share the same storage and network.
 
-## Part 5: Kubernetes Cluster Structure
+##  Kubernetes Cluster Structure
 
 A Kubernetes Cluster has:
 * 1 Master Node: Controls the cluster (control plane)
 * Many Worker Nodes: Run your actual applications (Pods)
 
-## Part 6: Key Services on Nodes
+## Key Services on Nodes
 
 Each Node runs:
 * `kubelet` (talks to Master)
 * `kube-proxy` (network routing)
 * Container Runtime (e.g. Docker)
 
-## Part 7: Tools You Need
+##  Tools You Need
 
 You need 3 tools:
 1. `kubectl`: Command-line tool to control Kubernetes
 2. `minikube`: Create a local Kubernetes cluster
 3. VS Code: For editing YAML & code
 
-## Part 8: Minikube Notes
+## Minikube Notes
 
 Minikube creates a single-node cluster for learning. It needs a virtual machine manager like VirtualBox (macOS) or Hyper-V (Windows).
 
