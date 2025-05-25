@@ -74,10 +74,6 @@ Ensure that the frontend is calling the correct backend service:
 ### SLB (Server Load Balancer)
 - A cloud load balancing service (e.g., by Alibaba Cloud).
 
-### GELB
-- Could refer to Global ELB or internal naming.
-- Use it to distribute traffic to multiple backend servers.
-
 ### Actions:
 - Check which backend instances are bound.
 - Review health check status.
