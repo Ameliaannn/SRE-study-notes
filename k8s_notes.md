@@ -303,9 +303,6 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-```js
-```
-
 ```bash
 kubectl exec -it pod-name -- nslookup nginx
 ```
