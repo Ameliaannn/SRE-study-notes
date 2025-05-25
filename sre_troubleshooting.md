@@ -69,7 +69,7 @@ Ensure that the frontend is calling the correct backend service:
 
 ---
 
-## 5. Check Load Balancer (SLB / GELB)
+## 5. Check Load Balancer 
 
 ### SLB (Server Load Balancer)
 - A cloud load balancing service (e.g., by Alibaba Cloud).
