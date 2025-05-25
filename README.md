@@ -21,6 +21,6 @@ My Linux basics and shell scripting notes are maintained in a separate repositor
 
 I completed the **"Kubernetes for Beginners"** course from Packt on Coursera with a score of 94.13%:
 
-![Kubernetes Certificate](k8scer.png)
+![Kubernetes Certificate](k8scer1.png)
 
 
